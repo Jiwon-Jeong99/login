@@ -1,3 +1,112 @@
 /* Web Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
 
+body {
+    font-family: 'Gothic+A1';
+    font-size: 13px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout CSS */
+.container {
+    background-color: #4D4D4D;
+    height: 100vh;
+}
+
+.login {
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 548px;
+    height: 646px;
+
+    /* centering layout */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 0.7px solid lightgray;
+}
+
+.login-title img {
+
+}
+
+.login-content {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.first-content {
+    font-size: 23px;
+    font-weight: 440;
+}
+
+.login-box {
+
+}
+
+.login-find {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.login-find a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.signin {
+    border-right-style: #4D4D4D;
+}
+
+.login-type {
+    text-align: center;
+}
+
+/* button CSS */
+a.btn {
+    /* inline 요소도 block 써주면 blcok 요소됨 */
+    display: block;
+    text-decoration: none;
+    color: #4D4D4D;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 15px;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+a.btn:hover {
+    opacity: 1;
+}
+
+/* button 별 CSS */
+a.btn1 {
+    border: 2px solid #AEAEAE;
+}
+
+a.btn2 {
+    border: 2px solid #71BCE6;
+}
+
+a.btn3 {
+    border: 2px solid #36CC49;
+}
+
+a.btn4 {
+    border: 2px solid #F4D26A;
+}
+
+ 
